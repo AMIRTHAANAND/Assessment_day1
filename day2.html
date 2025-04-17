@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        border: 1px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        border: 1px;
+        margin-left: 5px;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        padding: 10px 20px;
+        gap: 10px;
+    }
+    ul li{
+        margin-left: 45%;
+    }
+    ul li a{
+        text-decoration:none;
+    }
+    .signin,.signup{
+        
+        margin-top:20px;
+        display: flex;
+        width: 100px;
+        height:25px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        justify-content: end;
+        border:1px solid  ;
+        border-radius: 30px;
+    }
+    .signin{
+        margin-left:57%;
+    }
+    .signup{
+        margin-right: 10px;
+        background-color:orangered;
+        color: aliceblue;
+    }
+    /* .top{
+        display: flex;
+        flex-direction: row;
+
+    } */
+    .learn{
+        display: flex;
+        gap: 10px;
+    }
+    .ordernow,.learnmore{
+        margin-top:20px;
+        display: flex;
+        width: 100px;
+        height:25px;
+        padding-left: 10px;
+        border:1px solid  ;
+        border-radius: 30px;
+    }
+    .ordernow{
+        background-color: orangered;
+        color: aliceblue;
+    }
+    .proimg{
+        display: flex;
+        border:1px solid;
+        width:200px;
+        height:200px ;
+        border-radius: 25px;
+        background-color: orange;
+        margin-left:85%;   
+        align-items: end;
+        position:relative;
+        bottom:250px;
+        right:10px;
+    }
+    .middel{
+        display: flex;
+    }
+</style>
+<body>
+    <nav>
+        <h2>Food<span style="color: orangered;">Hub</span></h2>
+        <ul>
+            <li><a href=""><span style="color: orangered;">Home</span></a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Foods</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+        <div class="signin">Sign in</div>
+        <div class="signup">Sign Up</div>
+    </nav>
+    <div class="top">
+        <div class="Order">
+            <div class="intro">
+                <h4><span style="color: gray;" >--FRESH & DELICIOUS</span></h4>
+                <h1>Delicious Meals</h1>
+                <h1><b><span style="color: orangered;">Delivered</span></b>to Your Door</h1>
+                <h5><span style="color: gray;" >Enjoy fresh,flavorful meals made with finest ingredients,<br>delivered straight to your door,every time</span></h5>
+            </div>
+            <div class="learn">
+                <div class="ordernow">Order Now</div>
+                <div class="learnmore">Learn More</div>
+            </div>
+            <div class="proimg"></div>
+        </div>
+    </div>
+    <div class="middel">
+        <div class="popular">
+            <h1>Our <b><span style="color: orangered;">Popular</span></b> items</h1>  
+            <h5><span style="color: gray;" > Try our popular items,crafted with fresh,irresistible flavors</span></h5>
+        </div>
+        <div class="view">
+            view
+        </div>
+    </div>
+</body>
+</html>
