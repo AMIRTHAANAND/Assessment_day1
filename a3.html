@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuyMore Clone</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        nav {
+            border: 1px solid white; 
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            gap: 10px;
+        }
+        nav ul li a {
+            border: 1px solid lightslategray;
+            background-color: whitesmoke;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 25px;
+            color: black;
+        }
+        nav ol {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+        .main {
+            display: flex;
+            border-radius: 35px;
+            margin: 20px;
+        }
+        .l {
+            border: 1px solid white;
+            width: 25%;
+            height: 700px;
+            background-color:white;
+            padding: 20px;
+        }
+        .r {
+            border: 1px solid white;
+            width: 75%;
+            height: 700px;
+            background-color:white;
+            padding: 20px;
+        }
+        .l1 .h3{
+            border: 1px solid white;
+            background-color:white;
+            color: black;
+            width: 60px;    
+            height: 50px;   
+            padding: 10px;
+            border-radius: 30px;
+            text-align: center;
+            margin: 10px 0; 
+        }
+        .h {
+            border: 1px solid hsl(206, 60%, 55%);
+            background-color:hsl(206, 60%, 55%);
+            color: white;
+            width: 80%;    
+            height: 50px;   
+            padding: 10px;
+            border-radius: 30px;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .t {
+            border: 1px solid white;
+            width: 100%;
+            height: 10%;
+            background-color:white;
+            margin-bottom: 20px;
+        }
+        .r1 {
+            border: 1px solid white;
+            width: 60%;
+            height: 50%;
+            margin: 10px;
+        }
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+        }
+        .f1{
+            border: 1px solid rgb(134, 215, 221);
+            width: 500px;
+            height: 180px;
+            background-color: rgb(133, 235, 244);
+            border-radius: 50px;
+            margin: 10px;
+        }
+        .r2{
+            display: flex;
+            padding-left: 20px;
+        }
+        .s1{
+            border: 1px solid rgb(134, 215, 221);
+            width: 200px;
+            height: 350px;
+            background-color: rgb(133, 235, 244);
+            border-radius: 65px;
+            margin: 10px;  
+        }
+        .t{
+            display: flex;;
+        }
+        .s2{
+            display: flex;
+            border: 1px solid rgb(134, 215, 221);
+            width: 500px;
+            height: 180px;
+            background-color: rgb(133, 235, 244);
+            border-radius: 50px;
+            margin: 10px;
+        }
+    .name {
+           display: flex;
+           justify-content: center;
+           align-items: center; 
+           border: 1px solid white;
+           background-color: white;
+           color: black;
+           width: 60px;
+           height: 30px; 
+           margin: auto;  
+           gap: 10px;
+}
+   .search{
+           display: flex;
+           justify-content: center;
+           align-items: center; 
+           border: 1px solid black;
+           border-radius: 25px;;
+           padding-left: 60px;
+           background-color: white;
+           color: black;
+           width: 60px;
+           height: 30px; 
+           margin: auto;  
+           /* gap: 10px; */
+}
+    .s{
+        display: flex;
+           justify-content: center;
+           align-items: center; 
+           border: 1px solid black;
+           border-radius: 25px;
+           padding-left: 30px;
+           background-color: white;
+           color: black;
+           width: 60px;
+           height: 30px; 
+           margin-left: 30px;  
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ol>
+            <li><h2>BuyMore</h2></li>
+            <li><h1>37</h1></li>
+        </ol> 
+        <ul>
+            <li><a href="#"><span>DashBoard</span></a></li>
+            <li><a href="#"><span>Website</span></a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="l">
+            <h3>Popular Product</h3>
+            <h3 class="h">Explore New</h3>
+            <h3>Clothing and Shoes</h3>
+            <h3>Gifts and Living</h3>
+            <h3>Inspiration</h3>
+            <div class="v1">
+                <h5><span style="color: rgb(171, 168, 168);">Quick actions</span></h5>
+                <h3><span style="color: rgb(171, 168, 168);">+ </span>spanRequest for Product</h3>
+                <h3><span style="color: rgb(171, 168, 168);">+ </span>Add member</h3>
+            </div><br>
+            <div class="v2">
+                <h5><span style="color: rgb(171, 168, 168);">Last Order  </span>   37</h5>
+                <h3>DXC nIKE...<span style="color: rgb(171, 168, 168);">viewmore</span></h3>
+                <h5>Outerwear...<span style="color: rgb(171, 168, 168);">viewmore</span></h5>
+                <h5><span style="color: rgb(171, 168, 168);">see all</span></h5>
+            </div><br>
+            <h4>Log Out</h4>
+        </div>
+        <div class="r">
+            <div class="t">
+                <h2>Explore</h2>
+                <div class="name">
+                    <h3>All</h3>
+                    <h3><span style="color: rgb(171, 168, 168);">Men</span></h3>
+                    <h3><span style="color: rgb(171, 168, 168);">Women</span></h3>
+                </div>
+                <div class="search">
+                    <h3>Filter</h3>
+                    <div class="s"></div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="l1">
+                    <div class="f1"></div>
+                    <div class="f1"></div>
+                    <div class="f1"></div>
+                </div>
+                <div class="r1">
+                    <div class="r2">
+                        <div class="s1"></div>
+                        <div class="s1"></div>
+                    </div>
+                    <div class ="s2"></div>
+                </div>
+                <div class="r1"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
