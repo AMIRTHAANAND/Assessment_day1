@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    width: 100%;
+    height:500px;
+}
+.form{
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    width: 400px;
+    height: 650px;
+    margin:auto;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+#task{
+    border:1px solid #bdbdbd;
+    border-radius:15px ;
+    padding: 10px;
+    color:black;
+}
+label{
+    font-size: 20px;
+    color: #f37373;
+}
+#Add{
+    border: 1px solid rgb(169, 169, 239);
+    background-color:  rgb(169, 169, 239);
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+#b1{
+    border-radius:15px;
+    color: white;
+    background-color: #f37373;
+    border: 1px solid #f37373;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;  
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+#b2{
+    border-radius:15px;
+    color: white;
+    background-color: hsl(0, 8%, 69%);
+    border: 1px solid hsl(0, 8%, 69%);
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;  
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+.low{
+    background-color:hsl(120, 70%, 45%);
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;  
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.medium{
+    background-color:orange;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;  
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.high{
+    background-color:#f54848;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;  
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+</style>
+<body>
+    <form class="form">
+        <h1 style="text-align: center;">Edit task</h1>
+        <label for="task">Main task name</label><br>  
+        <input type="text" id="task" placeholder="Enter a task"><br><br>
+        <label for="task">Due date</label><br>  
+        <input type="month" id="task" placeholder="Enter the due date"><br><br>
+        <label for="task">Sub-task</label> <br> 
+        <input type="text" id="task" placeholder="Enter sub task"><br><br>
+        <label for="task">Choose priority</label> <br>
+        <button class="high">High</button>
+        <button class="medium">Medium</button>
+        <button class="low">Low</button><br><br>
+        <label for="task">Sub-task Name</label><br>  
+        <input type="text" id="task" placeholder="Enter sub task name">
+        <button id="Add">Add sub-task</button><br><br>
+        <label for="task">Description</label><br>  
+        <input type="text" id="task" placeholder="Enter a task..."><br><br>
+        <button id="b1">Edit task</button>
+        <button id="b2">clear</button>
+    </form>
+</body>
+</html>
