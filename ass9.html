@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .main{
+        display: flex;
+        border: 1px solid lch(91.72% 0.36 17.71);
+        background-color: lch(91.72% 0.36 17.71);
+        width: 97%;
+        height: 700px;
+        margin: 10px;
+        margin-top:20px;
+        margin-left: 25px;
+        border-radius:15px;
+        gap: 10px;
+        justify-content: space-around;
+    }
+    #d{
+        border: 1px soild black;
+        background-color: beige;
+        width:320px;
+        height:600px;
+        margin: 20px;
+        margin-top:50px;
+    }
+    .d11{
+        border: 1px solid #f5c367;
+        background-color: #f5c367;
+        width: auto;
+        height: 80px;
+        margin: 20px;
+        border-radius: 20px;
+    }
+    .d12{
+        display: flex;
+        border:1px solid beige;
+        width: auto;
+        height: 60%;
+        margin: 10px;
+    }
+    .dl{
+        border: 1px solid beige;
+        width:140px;
+        height: 320px;
+        margin: 5px;
+        margin-left: 10px;
+        border-radius: 20px; 
+    }
+    .dr{
+        border: 1px solid beige;
+        width:140px;
+        height: 320px;
+        margin: 5px;
+        margin-right: 10px;
+        border-radius: 20px;  
+    }
+    h3{
+        text-align: center;
+    }
+    #search{
+    margin-left: 60px;
+    border:1px solid white;
+    border-radius: 6px;
+    padding:5px;
+    }
+    .tl{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        width: 100px;
+        border: 1px solid hsl(24, 61%, 61%);
+        height: 160px;
+        background-color: hsl(24, 61%, 61%);
+        margin: 15px;
+        border-radius:10px;
+    }
+    .ts{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        width: 100px;
+        border: 1px solid #f3d7ae;
+        height: 100px;
+        background-color: #f3d7ae;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    .type{
+        margin: 20px;
+    }
+    .btn{
+        border: 1px solid white;
+        border-radius: 15px;
+        background-color: white;
+        margin-left: 5px;
+        padding: 8px;
+    }
+    .btn:hover{
+        background-color: #f5c367;
+        color: white;
+    }
+    .img{
+        height: 250px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .btn1{
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 30px;
+        height:30px;
+        margin-top: 180px;
+        
+    }
+    .s{
+        border: 1px solid #f5c367;
+        background-color:#f5c367;
+        border-radius: 30px;
+        width: 90%;
+        height: 100px;
+        margin: 15px;
+    }
+    .add{
+        border: 1px solid hsl(36, 94%, 75%);
+        width: 90%;
+        height: 40px;
+        margin: 15px;
+        border-radius: 20px;
+        background-color:hsl(36, 94%, 75%);
+    }
+    .add:hover{
+        background-color: #f5c367; 
+    }
+    .content{
+        border:1px solid hsl(24, 61%, 61%) ;
+        background-color:hsl(24, 61%, 61%);
+        height: 50%;
+        border-top-right-radius: 20px;
+        border-top-left-radius:20px;
+    }
+    h5{
+        margin: 20px;
+    }
+    .b{
+        border-radius: 20px;
+        width: 50px;
+        background-color: #eec590;
+        border: 1px solid #eec590;
+        margin: 5px;
+    }
+    .add1{
+        border: 1px solid hsl(36, 94%, 75%);
+        width: 40%;
+        height: 40px;
+        margin: 15px;
+        margin-left: 180px;
+        margin-top: 140px;
+        border-radius: 20px;
+        background-color:hsl(36, 94%, 75%);
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="d1" id="d">
+            <h3>Discover</h3>
+            <input type="text" id="search" placeholder="Search Product">
+            <div class="d11">
+                <h5>New Arrival</h5>
+            </div>
+            <div class="d12">
+                <div class="dl">
+                    <div class="tl">
+                        <div class="photo"></div>
+                        <button class="b">Add</button>
+                    </div>
+                    <div class="ts">
+                        <div class="photo"></div>
+                        <button class="b">Add</button>
+                    </div>
+                </div>
+                <div class="dr">
+                    <div class="ts">
+                        <div class="photo"></div>
+                        <button class="b">Add</button>
+                    </div>
+                    <div class="tl">
+                        <div class="photo"></div>
+                        <button class="b">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d2" id="d">
+            <h3>Discover</h3>
+            <input type="text" id="search" placeholder="Search Product">
+            <div class="type">
+                <button class="btn">Men</button>
+                <button class="btn">Women</button>
+                <button class="btn">Kids</button>
+                <button class="btn">Accesorie</button>
+                <h2>Women</h2>
+            </div>
+            <div class="d12">
+                <div class="dl">
+                    <div class="tl">
+                        <div class="photo"></div>
+                        <button class="b">Add</button>
+                    </div>
+                    <div class="ts">
+                        <div class="photo"></div>
+                        <button class="b">Add</button>
+                    </div>
+                </div>
+                <div class="dr">
+                    <div class="ts">
+                        <div class="photo"></div>
+                        <button class="b">Add</button>
+                    </div>
+                    <div class="tl">
+                        <div class="photo"></div>
+                        <button class="b">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d3" id="d">
+            <h3>Details</h3>
+            <div class="img">
+                <img src="#" alt="Nike Blazer Mid77"><br>
+                <button class="btn1">38</button>
+                <button class="btn1">40</button>
+                <button class="btn1">42</button>
+                <button class="btn1">44</button>
+            </div>
+            <div class="content">
+                <h2>Nike Blazer Mid77</h2>
+                <h5>Description</h5>
+                <button class="add1">Add cards</button>
+            </div>
+        </div>
+        <div class="d4" id="d">
+            <h3>Saved items all</h3>
+            <div class="s"></div>
+            <div class="s"></div>
+            <div class="s"></div>
+            <div class="s"></div>
+            <button class="add">Add Card</button>
+        </div>
+    </div>
+</body>
+</html>
