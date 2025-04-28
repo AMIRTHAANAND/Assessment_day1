@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: hwb(0 81% 17%);
+        font-family: Arial, sans-serif;
+    }
+    .main{
+        background-color: hwb(0 81% 17%);
+        color:black;
+        text-align: center;
+        padding: 20px;
+        text-align: start;
+        height: 680px;
+        width: 900px;
+        margin-left: 300px;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+    }
+    .middle{
+        display: flex;
+        margin-top: 20px;
+        gap: 30px;
+    }
+    .right{
+        background-color:white;
+        width:400px;
+        height: 790px;
+    }
+    .left{
+        background-color: hwb(0 81% 17%);
+        width: 800px;
+        height: 600px;
+    }
+    .topic{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        text-align: center;
+    }
+    h5{
+        margin: 0;
+        color: hwb(0 81% 17%);;
+    }
+    .box{
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+    }
+    #box{
+        margin-bottom: 20px;
+    }
+    .box1{
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+    }
+    h4{
+        margin-left: 20px;
+    }
+    .lt{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        text-align: center;
+        background-color: white;
+    }
+    #date{
+        width: 105px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .lb{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        text-align:start;
+        gap: 50px;
+        background-color: white;
+        margin-top: 10px;
+    }
+    .lb1{
+        padding: 10px;
+        background-color: white;
+    }
+    .h5{
+        color: hwb(0 27% 71%);
+        margin-left: 5px;
+    }
+    .div{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        text-align: center;
+    }
+    #book{
+        width: 100px;
+        height: 50px;
+        margin-top: 15px;
+        color: #f36975;
+        border: 1px solid #f36975;
+    }
+    #book1{
+        width: 100px;
+        height: 50px;
+        margin-top: 15px;
+        color: lightslategrey;
+        border: 1px solid lightslategrey;
+    }
+    #date{
+        width: 105px;
+        margin-top: 10px;
+        margin-right: 10px;
+        height: 30px;
+        border: white;
+    }
+    h3{
+        margin-left: 10px;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="top">
+        <h3>NEW DELHI(NDLS)  <span style="color: red;font-size: larger;">→ </span>MUMBAI CENTRAL(MMCT)</h3>
+        <input type="date" id="date" name="date" value="2025-04-29">
+        </div>
+        <div class="middle">
+        <div class="right">
+            <div class="topic">
+                <h4>FILTERS</h4>
+                <h4><span style="color: red;">RESET ALL</span></h4>
+            </div>
+            <h5>_________________________________________</h5>
+            <h4>Quota</h4>
+            <div class="box">
+                <div class="r">
+                    <input type="checkbox" id="box" name="gn">
+                    <label for="gn">General </label><br>
+                    <input type="checkbox" id="box" name="lw">
+                    <label for="lw">Ladies </label><br>
+                </div>
+                <div class="l">
+                    <input type="checkbox" id="box" name="tq">
+                    <label for="tq">Tatkal </label><br>
+                    <input type="checkbox" id="box" name="ss">
+                    <label for="ss">Senior Citizen/Lower Beth </label><br>
+                </div>
+            </div>
+            <h5>_________________________________________</h5>
+            <h4>Origin Station</h4>
+            <div class="box1">
+                <div class="r">
+                    <input type="checkbox" id="box" name="gn">
+                    <label for="gn">NZM</label><br>
+                    <input type="checkbox" id="box" name="lw">
+                    <label for="lw">DEE</label><br>
+                    <input type="checkbox" id="box" name="lw">
+                    <label for="lw">ANDI</label><br>
+                </div>
+                <div class="l">
+                    <input type="checkbox" id="box" name="tq">
+                    <label for="tq">NDLS</label><br>
+                    <input type="checkbox" id="box" name="ss">
+                    <label for="ss">SZM</label><br>
+                </div>
+            </div>
+            <h5>_________________________________________</h5>
+            <h4>Desitation Station</h4>
+            <div class="box1">
+                <div class="r">
+                    <input type="checkbox" id="box" name="gn">
+                    <label for="gn">NZM</label><br>
+                    <input type="checkbox" id="box" name="lw">
+                    <label for="lw">DEE</label><br>
+                    <input type="checkbox" id="box" name="lw">
+                    <label for="lw">ANDI</label><br>
+                </div>
+                <div class="l">
+                    <input type="checkbox" id="box" name="tq">
+                    <label for="tq">NDLS</label><br>
+                    <input type="checkbox" id="box" name="ss">
+                    <label for="ss">SZM</label><br>
+                </div>
+            </div>
+        </div>
+        <div class="left">
+            <div class="lt">
+                <h4>Sort by:</h4>
+                <h4><span style="color: red;">Departure</span></h4>
+                <h4>Duration</h4>
+                <h4>Arrival</h4>
+            </div>
+            <div class="lb">
+                <h6> 12904 - GOLDEN TEMPLE M<br>04:00 NZM  - 19h 35M - 23:35 MMCT</h6>
+                <h5>S M T W F S<br><span style="color: red;">view Schedule</span></h5>
+            </div>
+            <div class="lb1">
+                <h5 class="h5">2A - Second AC   3A-Third AC   SL-Sleeper  1A - First AC</h5>
+                <div class ="div">
+                    <h4>Tue,29 Apr</h4>
+                    <h4><span style="color: hwb(39 22% 17%);">RLWL22/WL17<br>41% Chance</span></h4>
+                    <button id="book">BOOK ₹ 2335</button>
+                </div>
+                <div class ="div">
+                    <h4>Wed,30 Apr</h4>
+                    <h4><span style="color: lab(52.17% 58.56 36.78);">REGRET<br>No More Booking</span></h4>
+                    <button id="book1">BOOK ₹ 2335</button>
+                </div>
+                <div class ="div">
+                    <h4>Thu,01 May</h4>
+                    <h4><span style="color: hwb(39 22% 17%);">RLWL22/WL16<br>48% Chamce</span></h4>
+                    <button id="book">BOOK ₹ 2335</button>
+                </div>
+                <div class ="div">
+                    <h4>Fri,02 May</h4>
+                    <h4><span style="color: hwb(39 22% 17%);">RLWL22/WL17</span></h4>
+                    <button id="book">BOOK ₹ 2335</button>
+                </div>
+                <div class ="div">
+                    <h4>Sat,03 May</h4>
+                    <h4><span style="color: hwb(39 22% 17%);">RLWL22/WL17</span></h4>
+                    <button id="book">BOOK ₹ 2335</button>
+                </div>
+                    <div class ="div">
+                        <h4>Wed,30 Apr</h4>
+                        <h4><span style="color: lab(52.17% 58.56 36.78);">REGRET<br>No More Booking</span></h4>
+                        <button id="book1">BOOK ₹ 2335</button>
+                </div>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
