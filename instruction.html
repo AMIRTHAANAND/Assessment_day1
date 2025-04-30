@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        display: flex;
+        background-color: aliceblue;
+        width: 90%;
+        height: 650px;
+        margin: 5px;
+        margin-left: 20px;
+        padding: 10px;
+        justify-content: center;
+    }
+    .left{
+        background-color: blue;
+        width: 30%;
+        height: 600px;
+        margin: 20px;
+        border-radius: 40px;
+    }
+    .right{
+        width: 40%;
+        height: 630px;
+        margin: 10px;
+    }
+    .name{
+        display: flex;
+        justify-content: space-between;
+    }
+    h2{
+        text-align: center;
+    }
+    #radio{
+        margin: 10px;
+        margin-left: 20px;
+        }
+    label{
+        margin: 20px;
+        }
+        .form1{
+            display: flex;
+            gap: 10px;
+        }
+        .check{
+            margin: 5px;
+            margin-left: 10px;
+            border-radius: 10px;
+        }
+        .check:hover{
+            border: 1px solid #42addb;
+            background-color: #42addb;
+        }
+        #text{
+            margin: 10px;
+            width: 350px;
+            height: 20px;
+            padding: 5px;
+            border-radius: 10px;
+            border-color: lavender;
+        }
+        .btn{
+            margin: 15px;
+            margin-left: 70px;
+            width: 390px;
+            height: 40px;
+            padding: 5px;
+            border-radius: 10px;
+            border-color: blue;
+            background-color: blue;
+            color: white;
+        }
+        .btn1{
+            margin: 25px;
+            margin-left: 50px;
+            margin-right: 90px;
+            margin-left: 80px;
+            width: 100px;
+            height: 40px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .b{
+            margin-left:160px;
+        }
+        .b1{
+            border: 1px solid white;
+            width: 40px;
+            height: 8px;
+            border-radius: 10px;
+        }
+        .b2{
+            margin-top: 550px;
+            margin-left: 10px;
+            border: 1px solid white;
+            width:12px;
+            height:12px;
+            border-radius:10px;
+        }
+</style>
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="b">
+                <button class="b1"></button>
+                <button class="b2"></button>
+                <button class="b2"></button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="name">
+                <h4><b>Learnify</b></h4>
+                <h4><span style="font-size: small;color: cadetblue;">< Back to Home</span></h4>
+            </div>
+            <div class="form">
+                <h2>Create an Account</h2>
+                <div class="form1">
+                    <div class="check">
+                        <label for="Student">Student</label>
+                        <input type="radio" id="radio">
+                        </div>
+                        <div class="check">
+                        <label for="Prof">Professional</label>
+                        <input type="radio" id="radio">
+                        </div>
+                        <div class="check">
+                        <label for="Instructor">Instructor</label>
+                        <input type="radio" id="radio">
+                    </div>
+                </div>
+                <label id="n">Full Name*</label><br>
+                <input type="text" id="text" placeholder="Enter your Name"><br>
+                <label id="n">Email*</label><br>
+                <input type="email" id="text" placeholder="Enter your E-mail"><br>
+                <label id="n">Password*</label><br>
+                <input type="password" id="text" placeholder="Enter your Password"><br>
+                <label id="n">Confirm Password*</label><br>
+                <input type="password" id="text" placeholder="confirm your Password"><br>
+                <button class="btn">Continue</button><br>
+                <button class="btn1">Google</button>
+                <button class="btn1">facebook</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
